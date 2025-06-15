@@ -257,7 +257,7 @@ const ActionButtons: React.FC<ButtonsEvents> = ({
       <button
         type="button"
         onClick={onClickOne}
-        className="cursor-pointer py-3 px-4 text-sm w-full font-medium rounded-2xl border border-transparent bg-[#000] text-white hover:bg-blue-700"
+        className="cursor-pointer py-3 px-4 text-sm w-full font-medium rounded-2xl border border-transparent bg-[#8366ff] text-white hover:bg-blue-700"
       >
         {labelOne}
       </button>
