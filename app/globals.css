@@ -22,5 +22,104 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Scandia", sans-serif;
 }
+/* === fonts/scandiafont.css === */
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Bold_Italic.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Optional additional weights/styles */
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Light_Italic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Medium_Italic.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+@media (max-width: 476px) {
+  .vertical__horizontal {
+    height: 160px;
+  }
+  .card__image {
+    height: 100%;
+    max-height: 140px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+/* button {
+  box-shadow: 0 2px 20px 0 #8366ff;
+  background-color: #8366ff;
+} */
