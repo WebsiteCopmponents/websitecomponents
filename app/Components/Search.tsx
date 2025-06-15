@@ -2,9 +2,18 @@
 import { useEffect, useState } from "react";
 import UserAvatarGroup from "./avgroup";
 
+interface TemplateItem {
+  id: number;
+  title: string;
+  featured_image: string;
+  custom_fields: {
+    _template_link?: string[]; // it's optional and an array
+  };
+}
+
 const ResponsiveSearchBar = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [results, setResults] = useState([]);
+  const [results, setResults] = useState<TemplateItem[]>([]);
   const [showResults, setShowResults] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -69,7 +78,7 @@ const ResponsiveSearchBar = () => {
             {loading ? (
               <p className="p-4 text-center text-gray-500">Searching...</p>
             ) : results.length > 0 ? (
-              results.map((item: any) => (
+              results.map((item) => (
                 <a
                   href={item.custom_fields._template_link?.[0] || "#"}
                   key={item.id}
