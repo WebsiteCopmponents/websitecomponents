@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import SpinnerDemo from "./spinner-01";
-import { a, label } from "framer-motion/client";
+
 
 type Template = {
   id: number;
