@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     images: ["https://websitecomponents.in/twitter-card.png"],
     site: "@YourTwitterHandle",
   },
-  verification: {
-    google: "UvYniF7L0fDGrfI-zGDl2fFtwhUiHfsy7Ap8KogjydU",
-  },
+  // verification: {
+  //   google: "UvYniF7L0fDGrfI-zGDl2fFtwhUiHfsy7Ap8KogjydU",
+  // },
 };
 
 export default function RootLayout({
@@ -70,10 +70,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <meta
+        <meta
           name="google-site-verification"
           content="UvYniF7L0fDGrfI-zGDl2fFtwhUiHfsy7Ap8KogjydU"
-        /> */}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
