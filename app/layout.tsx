@@ -3,7 +3,8 @@ import "./globals.css";
 import ClientLayout from "./Components/ClientLayout";
 
 export const metadata: Metadata = {
-  title: "Website Components  UI & Wordpress/Elementor Templates - Web Components",
+  title:
+    "Website Components  UI & Wordpress/Elementor Templates - Web Components",
   description:
     "Premium web‑component UI sections and Wordpress/Elementor templates for modern websites",
   keywords: [
@@ -42,6 +43,9 @@ export const metadata: Metadata = {
     images: ["https://websitecomponents.in/twitter-card.png"],
     site: "@YourTwitterHandle",
   },
+  verification: {
+    google: "UvYniF7L0fDGrfI-zGDl2fFtwhUiHfsy7Ap8KogjydU",
+  },
 };
 
 export default function RootLayout({
@@ -66,6 +70,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* <meta
+          name="google-site-verification"
+          content="UvYniF7L0fDGrfI-zGDl2fFtwhUiHfsy7Ap8KogjydU"
+        /> */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
