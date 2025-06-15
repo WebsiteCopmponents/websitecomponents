@@ -12,54 +12,109 @@ export default function Faqs() {
 
   const faqs = [
     {
-      question: "What types of components do you offer?",
+      question:
+        "What are web components and how do they differ from website components?",
       answer:
-        "We offer a wide range of responsive and modern UI components including headers, footers, hero sections, forms, buttons, alerts, cards, modals, and more.",
+        "Web components are modular, reusable UI building blocks, while website components refer to the implementation of these blocks on a complete website or page.",
     },
     {
-      question: "Are your components mobile-friendly?",
+      question:
+        "Can I use your web components in WordPress/Elementor templates?",
       answer:
-        "Yes! All components are designed to be fully responsive and work seamlessly across devices of all screen sizes.",
+        "Yes! Our web components and website components seamlessly integrate into WordPress/Elementor templates to build pages quickly.",
     },
     {
-      question: "Can I use these components in commercial projects?",
+      question:
+        "Do you offer custom code templates for dashboards and UI elements?",
       answer:
-        "Absolutely. All components come with a commercial license, so you're free to use them in client projects, SaaS apps, or any commercial product.",
+        "Absolutely—our collection includes custom code templates for fully functional dashboards, landing pages, and UI components.",
     },
     {
-      question: "What technologies are your components built with?",
+      question: "Are your dashboards mobile-responsive?",
       answer:
-        "Our components are built using modern technologies like Tailwind CSS and React. They are optimized for performance and easy customization.",
+        "Yes, all dashboards, landing pages, and UI elements are fully responsive and work flawlessly on desktop and mobile.",
     },
     {
-      question: "Do I need to know React to use these components?",
+      question: "What landing pages do you provide?",
       answer:
-        "Most components are built with React, but we also offer HTML versions of some UI elements. If you're using React or Next.js, integration is seamless.",
+        "We offer a variety of landing pages built with web components, website components, and UI code templates to suit different niches.",
     },
     {
-      question: "How do I customize the components to match my brand?",
+      question: "Can I mix web components with custom code templates?",
       answer:
-        "Each component comes with clean, well-organized code. You can easily change colors, fonts, spacing, and layout using Tailwind utility classes or your custom styles.",
+        "Definitely! You can mix web components and custom code templates to build cohesive dashboards, landing pages, and UI designs.",
     },
     {
-      question: "Will I get updates or new components after purchase?",
+      question:
+        "Do your WordPress/Elementor templates support dynamic content?",
       answer:
-        "Yes! We regularly update the component library and add new UI elements. You'll receive lifetime access to all future updates.",
+        "Yes, our WordPress/Elementor templates include dynamic sections via web components and custom code templates.",
     },
     {
-      question: "Do you provide documentation or examples?",
+      question: "What UI components are included?",
       answer:
-        "Yes, each component includes usage examples and inline documentation to help you get started quickly.",
+        "We include headers, footers, hero sections, buttons, cards, tables (for dashboards), modals, forms, and more UI components.",
     },
     {
-      question: "Can I request a custom component?",
+      question: "Is the code optimized for performance?",
       answer:
-        "We welcome suggestions! While we don’t offer custom services, we often add high-demand components to our collection based on user feedback.",
+        "Yes, our web components, custom code templates, and UI elements are optimized for speed, accessibility, and SEO.",
     },
     {
-      question: "Do you offer support if I face issues?",
+      question: "Can I customize the styles of web components or UI templates?",
       answer:
-        "Yes, we offer email support and a help center to assist with integration or usage questions.",
+        "Absolutely—our website components and custom code templates are fully customizable using CSS or Tailwind classes.",
+    },
+    {
+      question:
+        "Do you provide support for WordPress/Elementor template integration?",
+      answer:
+        "Yes, we offer documentation and support for integrating our web components and UI templates into WordPress/Elementor setups.",
+    },
+    {
+      question: "Are the dashboards built on modern technologies?",
+      answer:
+        "Yes, our dashboards are built with React-based web components and custom code templates for maximum flexibility.",
+    },
+    {
+      question: "Can I buy individual website components or UI blocks?",
+      answer:
+        "Yes, we allow purchase of individual website components, landing pages, dashboards, or UI blocks.",
+    },
+    {
+      question: "Will I get updates to landing pages and UI templates?",
+      answer:
+        "Yes, purchasing our dashboards, WordPress/Elementor templates, and web components includes lifetime updates.",
+    },
+    {
+      question: "Do you offer a commercial license?",
+      answer:
+        "All web components, website components, custom code templates, dashboards, landing pages, and UI elements come with a commercial license.",
+    },
+    {
+      question: "Can I preview the web components before purchase?",
+      answer:
+        "Yes, we offer live previews of all website components, dashboard templates, landing pages, and UI code templates.",
+    },
+    {
+      question: "Are your templates RTL-compatible?",
+      answer:
+        "Our WordPress/Elementor templates, web components, and UI code templates support RTL languages out of the box.",
+    },
+    {
+      question: "How are custom code templates delivered?",
+      answer:
+        "Custom code templates are delivered as ZIP files with clean CSS, HTML, JS, and React-based web components.",
+    },
+    {
+      question: "What support is included for dashboards and UI templates?",
+      answer:
+        "We include documentation, code samples, and email support for all web components, dashboards, and website components.",
+    },
+    {
+      question: "Can I request new templates or components?",
+      answer:
+        "Yes! We welcome requests for custom web components, WordPress/Elementor templates, dashboards, landing pages, and UI blocks.",
     },
   ];
 
