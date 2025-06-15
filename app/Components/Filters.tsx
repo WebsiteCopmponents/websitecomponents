@@ -1,9 +1,8 @@
 "use client";
-
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import SpinnerDemo from "./spinner-01";
-
 
 type Template = {
   id: number;
@@ -176,15 +175,13 @@ export default function Filters() {
                 <div className="left-box w-full md:w-[100%] rounded-3xl overflow-hidden mb-3 md:mb-auto lg:mb-auto">
                   <div className="card__image w-full h-full">
                     {pageLoaded && (
-                      <img
+                      <Image
                         src={item.featured_image}
                         className="w-full h-full cover md:contain"
+                        width={400} 
+                        height={300}
                         alt="Card preview"
-                        // style={{
-                        //   width: "100%",
-                        //   height: "100%",
-                        //   objectFit: "contain",
-                        // }}
+                     
                       />
                     )}
                   </div>
