@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://websitecomponents.in
+
+# Sitemaps
+Sitemap: https://websitecomponents.in/sitemap.xml
