@@ -2,14 +2,14 @@
 
 import { Icon } from "@iconify/react";
 import Avatar from "./Avatar";
-import React, { useState } from "react";
+import React from "react";
 
 type HeaderProps = {
   setSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 export default function Header({ setSidebarOpen }: HeaderProps) {
-  const [sidebarOpen, setSidebarOpenState] = useState<boolean>(false);
+  // const [sidebarOpen, setSidebarOpenState] = useState<boolean>(false);
   return (
     <header className="border-b-1 border-[#dedede] bg-white px-4 py-4">
       <div className="flex w-full items-center justify-between">
@@ -20,47 +20,18 @@ export default function Header({ setSidebarOpen }: HeaderProps) {
           className="md:hidden p-2"
           aria-label="Toggle Menu"
         >
-          {sidebarOpen ? (
-            // Cross Icon
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <line
-                x1="4"
-                y1="4"
-                x2="20"
-                y2="20"
-                stroke="black"
-                strokeWidth="2"
-              />
-              <line
-                x1="20"
-                y1="4"
-                x2="4"
-                y2="20"
-                stroke="black"
-                strokeWidth="2"
-              />
-            </svg>
-          ) : (
-            // Hamburger Icon
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <line
-                x1="4"
-                y1="8"
-                x2="32"
-                y2="8"
-                stroke="black"
-                strokeWidth="2"
-              />
-              <line
-                x1="4"
-                y1="16"
-                x2="20"
-                y2="16"
-                stroke="black"
-                strokeWidth="2"
-              />
-            </svg>
-          )}
+        
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <line x1="4" y1="8" x2="32" y2="8" stroke="black" strokeWidth="2" />
+            <line
+              x1="4"
+              y1="16"
+              x2="20"
+              y2="16"
+              stroke="black"
+              strokeWidth="2"
+            />
+          </svg>
         </button>
 
         <div className="hidden md:flex items-center gap-4">

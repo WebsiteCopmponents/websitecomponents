@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import UserAvatarGroup from "./avgroup";
 
@@ -86,10 +87,10 @@ const ResponsiveSearchBar = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 hover:bg-neon-green dark:hover:bg-[#111] "
                 >
-                  <img
+                  <Image
                     src={item.featured_image}
                     alt={item.title}
-                    className="w-12 h-12 object-cover rounded-lg border"
+                    className="w-12 h-12 object-cover rounded-lg border-1 border-gray-200"
                   />
                   <div className="text-sm text-left">
                     <p className="font-semibold text-gray-900 dark:text-white">
