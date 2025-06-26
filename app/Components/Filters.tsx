@@ -89,6 +89,10 @@ export default function Filters() {
       label: "Dashboards",
       apiCall: `${apiUrl}?category=dashboards`,
     },
+    {
+      label: "Pricing",
+      apiCall: `${apiUrl}?category=pricing`,
+    },
     // Add more as needed
   ];
 
