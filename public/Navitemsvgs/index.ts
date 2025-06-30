@@ -16,30 +16,38 @@ const Navitemsvgs = [
     {
         label: "Components",
         icon: Components,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label: "Person",
-        icon: Person,   
+        icon: Person,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label: "Date",
         icon: Date,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label: "Flash",
         icon: Flash,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label: "Alert",
-        icon: Alert
+        icon: Alert,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label : "Settings",
         icon: Settings,
+        path: "https://webbyganesh.gumroad.com/"
     },
     {
         label : "Profile",
         icon : BlankAvatar,
+        path: "https://webbyganesh.gumroad.com/"
     }
-]
+];
+
 export default Navitemsvgs;
