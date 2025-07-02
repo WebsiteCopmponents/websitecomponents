@@ -75,7 +75,7 @@
 //                     )}
 //                   </div>
 //                 </div>
-//                 {/* <div className="right-box w-full md:w-[50%] flex flex-col justify-between p-2">
+//                 <div className="right-box w-full md:w-[50%] flex flex-col justify-between p-2">
 //                   <div className="card__text">
 //                     {item.custom_fields._template_paid?.[0] === "paid" && (
 //                       <div
@@ -100,7 +100,7 @@
 //                     </p>
 //                   </div>
 
-//                   {/* <div className="card__footer">
+//                <div className="card__footer">
 //                     <div className="flex gap-2 mt-3">
 //                       <button className="flex-1 text-sm bg-black text-white py-2 px-3 rounded-md">
 //                         {item.custom_fields._template_paid?.[0] === "paid"
@@ -120,7 +120,7 @@
 //                       </button>
 //                     </div>
 //                   </div>
-//                 </div> */}
+//                 </div>
 //               </div>
 //             </a>
 //           ))}
